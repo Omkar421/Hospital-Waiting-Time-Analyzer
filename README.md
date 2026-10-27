@@ -60,7 +60,6 @@ hospital_waiting_time_analyzer/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── CLAUDE_PROMPT.md
 ├── data/
 │   └── hospital_waiting_data.csv
 └── scripts/
