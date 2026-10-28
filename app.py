@@ -13,7 +13,8 @@ st.set_page_config(
 )
 
 ROOT = Path(__file__).parent
-DEFAULT_DATA = ROOT / "data" / "hospital_waiting_data.csv"
+DEFAULT_DATA = ROOT /
+"hospital_waiting_data.csv"
 
 REQUIRED_COLUMNS = [
     "Patient_ID", "Department", "Arrival_Time", "Consultation_Start", "Day"
