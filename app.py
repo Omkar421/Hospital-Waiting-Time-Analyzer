@@ -13,11 +13,11 @@ st.set_page_config(
 )
 
 ROOT = Path(__file__).parent
-DEFAULT_DATA = ROOT /
-"hospital_waiting_data.csv"
+DEFAULT_DATA = ROOT / "hospital_waiting_data.csv"
 
 REQUIRED_COLUMNS = [
-    "Patient_ID", "Department", "Arrival_Time", "Consultation_Start", "Day"
+    "Patient_ID", "Department", "Arrival_Time",
+    "Consultation_Start", "Day"
 ]
 DAY_ORDER = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
